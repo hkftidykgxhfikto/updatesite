@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+  <link rel="stylesheet" href="style.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Foodwagon</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="assets/css/theme.min.css" rel="stylesheet" />
+  </head>
+
+
+
+
+
+
+
+
+  
+  <body>
+
+    <main class="main" id="top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container"><a class="navbar-brand d-inline-flex" href="index.html"><img class="d-inline-block" src="ai.png" alt="logo" /><span class="text-1000 fs-3 fw-bold ms-2 text-gradient">foodwaGon</span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+          <div class="collapse navbar-collapse border-top border-lg-0 my-2 mt-lg-0" id="navbarSupportedContent">
+            <div class="mx-auto pt-5 pt-lg-0 d-block d-lg-none d-xl-block">
+              <p class="mb-0 fw-bold text-lg-center">Deliver to: <i class="fas fa-map-marker-alt text-warning mx-2"></i><span class="fw-normal">Current Location </span><span>Mirpur 1 Bus Stand, Dhaka</span></p>
+            </div>
+            <form class="d-flex mt-4 mt-lg-0 ms-lg-auto ms-xl-0">
+              <div class="input-group-icon pe-2"><i class="fas fa-search input-box-icon text-primary"></i><input class="form-control border-0 input-box bg-100" type="search" placeholder="Search Food" aria-label="Search" /></div><button class="btn btn-white shadow-warning text-warning" type="submit"><a href="gggg.html"> <i class="fas fa-user me-2"></i>Login</button> </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section class="py-5 overflow-hidden bg-primary" style="background-color: black;" id="home">
+        <div class="container">
+          <div class="row flex-center">
+            <div class="col-md-5 col-lg-6 order-0 order-md-1 mt-8 mt-md-0"><a class="img-landing-banner" href="#!"><img class="img-fluid" src="salata.png" alt="hero-header" /></a></div>
+            <div class="col-md-7 col-lg-6 py-8 text-md-start text-center">
+              <h1 class="display-1 fs-md-5 fs-lg-6 fs-xl-8 text-light">Are you starving?</h1>
+              <h1 class="text-800 mb-5 fs-4">Within a few clicks, find meals that<br class="d-none d-xxl-block" />are accessible near you</h1>
+              <div class="card w-xxl-75">
+                <div class="card-body">
+                  <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist"><button class="nav-link active mb-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-motorcycle me-2"></i>Delivery</button><button class="nav-link mb-3" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-shopping-bag me-2"></i>Pickup</button></div>
+                  </nav>
+                  <div class="tab-content mt-3" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                      <form class="row gx-2 gy-2 align-items-center">
+                        <div class="col">
+                          <div class="input-group-icon"><i class="fas fa-map-marker-alt text-danger input-box-icon"></i><label class="visually-hidden" for="inputDelivery">Address</label><input class="form-control input-box form-foodwagon-control" id="inputDelivery" type="text" placeholder="Enter Your Address" /></div>
+                        </div>
+                        <div class="d-grid gap-3 col-sm-auto"><button class="btn btn-danger" type="submit">Find Food</button></div>
+                      </form>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                      <form class="row gx-4 gy-2 align-items-center">
+                        <div class="col">
+                          <div class="input-group-icon"><i class="fas fa-map-marker-alt text-danger input-box-icon"></i><label class="visually-hidden" for="inputPickup">Address</label><input class="form-control input-box form-foodwagon-control" id="inputPickup" type="text" placeholder="Enter Your Address" /></div>
+                        </div>
+                        <div class="d-grid gap-3 col-sm-auto"><button class="btn btn-danger" type="submit">Find Food</button></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="py-0">
+        <div class="container">
+          <div class="row h-100 gx-2 mt-7">
+            <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
+              <div class="card card-span h-100">
+                <div class="position-relative"> <img class="img-fluid rounded-3 w-100" src="assets/img/gallery/discount-item-1.png" alt="..." />
+                  <div class="card-actions">
+                    <div class="badge badge-foodwagon bg-primary p-4">
+                      <div class="d-flex flex-between-center">
+                        <div class="text-white fs-7">15</div>
+                        <div class="d-block text-white fs-2">% <br />
+                          <div class="fw-normal fs-1 mt-2">Off</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body px-0">
+                  <h5 class="fw-bold text-1000 text-truncate">Flat Hill Slingback</h5><span class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
+                </div><a class="stretched-link" href="#"></a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
+              <div class="card card-span h-100">
+                <div class="position-relative"> <img class="img-fluid rounded-3 w-100" src="assets/img/gallery/discount-item-2.png" alt="..." />
+                  <div class="card-actions">
+                    <div class="badge badge-foodwagon bg-primary p-4">
+                      <div class="d-flex flex-between-center">
+                        <div class="text-white fs-7">10</div>
+                        <div class="d-block text-white fs-2">% <br />
+                          <div class="fw-normal fs-1 mt-2">Off</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body px-0">
+                  <h5 class="fw-bold text-1000 text-truncate">Ocean Blue Ring</h5><span class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
+                </div><a class="stretched-link" href="#"></a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
+              <div class="card card-span h-100">
+                <div class="position-relative"> <img class="img-fluid rounded-3 w-100" src="assets/img/gallery/discount-item-3.png" alt="..." />
+                  <div class="card-actions">
+                    <div class="badge badge-foodwagon bg-primary p-4">
+                      <div class="d-flex flex-between-center">
+                        <div class="text-white fs-7">25</div>
+                        <div class="d-block text-white fs-2">% <br />
+                          <div class="fw-normal fs-1 mt-2">Off</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body px-0">
+                  <h5 class="fw-bold text-1000 text-truncate">Brown Leathered Wallet</h5><span class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
+                </div><a class="stretched-link" href="#"></a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
+              <div class="card card-span h-100">
+                <div class="position-relative"> <img class="img-fluid rounded-3 w-100" src="assets/img/gallery/discount-item-4.png" alt="..." />
+                  <div class="card-actions">
+                    <div class="badge badge-foodwagon bg-primary p-4">
+                      <div class="d-flex flex-between-center">
+                        <div class="text-white fs-7">20</div>
+                        <div class="d-block text-white fs-2">% <br />
+                          <div class="fw-normal fs-1 mt-2">Off</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body px-0">
+                  <h5 class="fw-bold text-1000 text-truncate">Silverside Wristwatch</h5><span class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days Remaining</span></span>
+                </div><a class="stretched-link" href="#"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-0 bg-primary-gradient">
+        <div class="container">
+          <div class="row justify-content-center g-0">
+            <div class="col-xl-9">
+              <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
+                <h5 class="fw-bold text-danger fs-3 fs-lg-5 lh-sm my-6">How does it work</h5>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="shadow-icon" src="location.png" height="112" alt="..." />
+                    <h5 class="mt-4 fw-bold">Select location</h5>
+                    <p class="mb-md-0">Choose the location where your food will be delivered.</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="shadow-icon" src="order.png" height="112" alt="..." />
+                    <h5 class="mt-4 fw-bold">Choose order</h5>
+                    <p class="mb-md-0">Check over hundreds of menus to pick your favorite food</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="shadow-icon" src="pay.png" height="112" alt="..." />
+                    <h5 class="mt-4 fw-bold">Pay advanced</h5>
+                    <p class="mb-md-0">It's quick, safe, and simple. Select several methods of payment</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="shadow-icon" src="meals.png" height="112" alt="..." />
+                    <h5 class="mt-4 fw-bold">Enjoy meals</h5>
+                    <p class="mb-md-0">Food is made and delivered directly to your home.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+        </div>
+      </section>
+
+      <section id="testimonial">
+        <div class="container">
+          <div class="row h-100">
+            <div class="col-lg-7 mx-auto text-center mb-6">
+              <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Featured Restaurants</h5>
+            </div>
+          </div>
+          <div class="row gx-2">
+            <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+              <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="kve.png" alt="..." />
+                <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">20% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+                <div class="card-body ps-0">
+                  <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="food.png" alt="" />
+                    <div class="flex-1 ms-3">
+                      <h5 class="mb-0 fw-bold text-1000">Food world</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">46</span>
+                    </div>
+                  </div><span class="badge bg-soft-danger p-2"><span class="fw-bold fs-1 text-danger">Opens Tomorrow</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+              <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="mwva.png" alt="..." />
+                <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+                <div class="card-body ps-0">
+                  <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="pizzza.png" alt="" />
+                    <div class="flex-1 ms-3">
+                      <h5 class="mb-0 fw-bold text-1000">Pizza hub</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">40</span>
+                    </div>
+                  </div><span class="badge bg-soft-danger p-2"><span class="fw-bold fs-1 text-danger">Opens Tomorrow</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+              <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="bli.png" alt="..." />
+                <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">15% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+                <div class="card-body ps-0">
+                  <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="dunk.png" alt="" />
+                    <div class="flex-1 ms-3">
+                      <h5 class="mb-0 fw-bold text-1000">Donuts hut</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">20</span>
+                    </div>
+                  </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+              <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="ka.png" alt="..." />
+                <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">15% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+                <div class="card-body ps-0">
+                  <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="sub.png" alt="" />
+                    <div class="flex-1 ms-3">
+                      <h5 class="mb-0 fw-bold text-1000">Donuts hut</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">50</span>
+                    </div>
+                  </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+              <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="sta.png" alt="..." />
+                <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+                <div class="card-body ps-0">
+                  <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="rubi.png" alt="" />
+                    <div class="flex-1 ms-3">
+                      <h5 class="mb-0 fw-bold text-1000">Ruby tuesday</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">50</span>
+                    </div>
+                  </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+              <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="kart.png" alt="..." />
+                <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+                <div class="card-body ps-0">
+                  <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="kfc.png" alt="" />
+                    <div class="flex-1 ms-3">
+                      <h5 class="mb-0 fw-bold text-1000">Kuakata Fried Chicken</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">50</span>
+                    </div>
+                  </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+              <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="Image.png" alt="..." />
+                <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+                <div class="card-body ps-0">
+                  <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="red.png" alt="" />
+                    <div class="flex-1 ms-3">
+                      <h5 class="mb-0 fw-bold text-1000">Kuakata Fried Chicken</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">50</span>
+                    </div>
+                  </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+              <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="taco.png" alt="..." />
+                <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+                <div class="card-body ps-0">
+                  <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="tacoi.png" alt="" />
+                    <div class="flex-1 ms-3">
+                      <h5 class="mb-0 fw-bold text-1000">Taco bell</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">50</span>
+                    </div>
+                  </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-5"> <a class="btn btn-lg btn-primary" href="#!">View All <i class="fas fa-chevron-right ms-2"> </i></a></div>
+          </div>
+        </div>
+      </section>
+
+     
+
+      <section class="py-0 pt-7 bg-1000">
+        <div class="container">
+          <div class="row justify-content-lg-between">
+            <h5 class="lh-lg fw-bold text-white">OUR TOP CITIES</h5>
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">San Francisco</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Miami</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">San Diego</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">East Bay</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Long Beach</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Los Angeles</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Washington DC</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Seattle</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Portland</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Nashville</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">New York City</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Orange County</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Atlanta</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Charlotte</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Denver</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Chicago</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Phoenix</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Las Vegas</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Sacramento</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Oklahoma City</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Columbus</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">New Mexico</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Albuquerque</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Sacramento</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">New Orleans</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="text-900" />
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <h5 class="lh-lg fw-bold text-white">COMPANY</h5>
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">About Us</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Team</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Careers</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">blog</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xxl-2 col-lg-3 mb-3">
+              <h5 class="lh-lg fw-bold text-white">CONTACT</h5>
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg"><a class="" href="#!">Help &amp; Support</a></li>
+                <li class="lh-lg"><a class="" href="#!">Partner with us </a></li>
+                <li class="lh-lg"><a class="" href="#!">Ride with us</a></li>
+                <li class="lh-lg"><a class="" href="#!">Ride with us</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <h5 class="lh-lg fw-bold text-white">LEGAL</h5>
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Terms &amp; Conditions</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Refund &amp; Cancellation</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Privacy Policy</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Cookie Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-3">
+              <h5 class="lh-lg fw-bold text-white">LEGAL</h5>
+              <ul class="list-unstyled mb-md-4 mb-lg-0">
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Terms &amp; Conditions</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Refund &amp; Cancellation</a></li>
+                <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6 col-xxl-4">
+              <h5 class="lh-lg fw-bold text-500">FOLLOW US</h5>
+              <div class="text-start my-3"> <a href="#!">
+              <h3 class="text-500 my-4">Receive exclusive offers and <br />discounts in your mailbox</h3>
+              <div class="row input-group-icon mb-5">
+                <div class="col-auto"><i class="fas fa-envelope input-box-icon text-500 ms-3"></i><input class="form-control input-box bg-800 border-0" type="email" placeholder="Enter Email" aria-label="email" /></div>
+                <div class="col-auto"> <button class="btn btn-primary" type="submit">Subscribe</button></div>
+              </div>
+            </div>
+          </div>
+          <hr class="border border-800" />
+          <div class="row flex-center pb-3">
+            <div class="col-md-6 order-0">
+              <p class="text-200 text-center text-md-start">All rights Reserved &copy; Your Company, 2021</p>
+            </div>
+            <div class="col-md-6 order-1">
+              <p class="text-200 text-center text-md-end"> Made with&nbsp;<a class="text-200 fw-bold" href="https://themewagon.com/" target="_blank">Vaniko narindoshvili </a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+
+
+  </body>
+
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Foodwagon | Responsive, Ecommerce &amp; Business Templatee</title>
+
+
+  </head>
+
+
+  <body>
+  </body>
+
+</html>
